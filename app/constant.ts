@@ -312,6 +312,7 @@ export const VISION_MODEL_REGEXES = [
   /gemini-1\.5/,
   /gemini-exp/,
   /gemini-2\.0/,
+  /gemini-2\.5/,
   /learnlm/,
   /qwen-vl/,
   /qwen2-vl/,
@@ -350,23 +351,28 @@ const openaiModels = [
 ];
 
 const googleModels = [
-  "gemini-1.0-pro", // Deprecated on 2/15/2025
   "gemini-1.5-pro-latest",
   "gemini-1.5-pro",
   "gemini-1.5-pro-002",
-  "gemini-1.5-pro-exp-0827",
   "gemini-1.5-flash-latest",
   "gemini-1.5-flash-8b-latest",
   "gemini-1.5-flash",
   "gemini-1.5-flash-8b",
   "gemini-1.5-flash-002",
-  "gemini-1.5-flash-exp-0827",
-  "learnlm-1.5-pro-experimental",
-  "gemini-exp-1114",
-  "gemini-exp-1121",
   "gemini-exp-1206",
+  "gemini-2.0-flash",
   "gemini-2.0-flash-exp",
+  "gemini-2.0-flash-lite-preview",
+  "gemini-2.0-flash-lite-preview-02-05",
+  "gemini-2.0-flash-thinking-exp",
   "gemini-2.0-flash-thinking-exp-1219",
+  "gemini-2.0-flash-thinking-exp-01-21",
+  "gemini-2.0-pro-exp",
+  "gemini-2.0-pro-exp-02-05",
+  "gemini-2.5-pro",
+  "gemini-2.5-flash",
+  "gemini-2.5-flash-lite-preview-06-17",
+  "learnlm-2.0-flash-experimental",  
 ];
 
 const anthropicModels = [
